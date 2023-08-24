@@ -28,6 +28,7 @@ async function SubmitData() {
         data_number.value == checkResult[i]?.Number
       ) {
         checked = 0;
+        break;
       }
     }
     if (checked == 1) {

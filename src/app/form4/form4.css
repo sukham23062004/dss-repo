@@ -112,15 +112,15 @@ body {
   background: #fafafa;
 }
 .form_wrapper input[type=text]:focus, .form_wrapper input[type=email]:focus, .form_wrapper input[type=number]:focus {
-  -webkit-box-shadow: 0 0 10px 2px rgb(153, 0, 255);
-  -moz-box-shadow: 0 0 2px 1px rgb(153, 0, 255);
-  box-shadow: 0 0 10px 5px rgb(153, 0, 255);
+  -webkit-box-shadow: 0 0 8px 4px rgb(153, 0, 255);
+  -moz-box-shadow: 0 0 8px 4px rgb(153, 0, 255);
+  box-shadow: 0 0 8px 4px rgb(153, 0, 255);
   border: 2px solid #9000ff;
 }
 .form_wrapper button {
   background: #6600ff;
   height: 35px;
-  box-shadow: 0 0 10px 3px rgb(153, 0, 255);
+  box-shadow: 0 0 8px 4px rgb(153, 0, 255);
   line-height: 30px;
   width: 100%;
   border-radius: 8px;

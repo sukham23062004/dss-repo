@@ -112,11 +112,11 @@ function form2() {
           </div>
         </div>
         <div class="loading-container1">
-          <img src="Loading.gif" width="150" height="150" alt="Not Avail" />
+          <img src="Loading.gif" width="200" height="200" alt="Not Avail" />
           <p>Registering</p>
         </div>
         <div class="loading-container2">
-          <img src="Validating.gif" width="200" height="200" alt="Not Avail" />
+          <img src="Validating.gif" width="150" height="150" alt="Not Avail" />
           <p>Validating</p>
         </div>
         <div className="SuccessPage">

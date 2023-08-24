@@ -25,6 +25,7 @@ async function SubmitData() {
     for (var i = 0; i < checkResult.length; i++) {
       if (roll_code.value == checkResult[i]?.Roll_No || data_number.value == checkResult[i]?.Number) {
         checked = 0;
+        break;
       }
     }
     if(checked==1){
