@@ -30,7 +30,7 @@ function form4() {
         <div class="form_wrapper">
           <div class="form_container">
             <div class="title_container">
-              <h2 className="text-black">Registration For Speaker's Session</h2>
+              <h2 className="text-black">Registration For Power Plot Presentation</h2>
             </div>
             <div class="row clearfix">
               <div class="">
@@ -41,42 +41,20 @@ function form4() {
                     </span>
                     <input
                       type="text"
-                      name="Name"
-                      placeholder="Your Name"
+                      name="Team_Name"
+                      placeholder="Team Name"
+                      data-teamname
                       required
                     />
                   </div>
                   <div class="input_field">
                     <span>
-                      <i aria-hidden="true" class="fa fa-graduation-cap"></i>
+                      <i aria-hidden="true" class="fa fa-user-plus"></i>
                     </span>
                     <input
                       type="text"
-                      name="College"
-                      placeholder="College Name"
-                      required
-                    />
-                  </div>
-                  <div class="input_field">
-                    <span>
-                      <i aria-hidden="true" class="fa fa-id-card-clip"></i>
-                    </span>
-                    <input
-                      type="text"
-                      name="Roll_No"
-                      placeholder="Institute Roll no."
-                      data-rollcode
-                      required
-                    />
-                  </div>
-                  <div class="input_field">
-                    <span>
-                      <i aria-hidden="true" class="fa fa-code-branch"></i>
-                    </span>
-                    <input
-                      type="text"
-                      name="Branch"
-                      placeholder="Branch"
+                      name="TL_Name"
+                      placeholder="Team Leader Name"
                       required
                     />
                   </div>
@@ -86,21 +64,79 @@ function form4() {
                     </span>
                     <input
                       type="email"
-                      name="Email"
+                      name="TL_Email"
                       placeholder="Email"
                       required
                     />
                   </div>
                   <div class="input_field">
                     <span>
-                      <i aria-hidden="true" class="fa fa-id-badge"></i>
+                      <i aria-hidden="true" class="fa fa-phone-volume"></i>
                     </span>
                     <input
                       type="number"
-                      name="Number"
+                      name="TL_Number"
                       placeholder="Mobile Number"
-                      data-number
                       required
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-user-plus"></i>
+                    </span>
+                    <input
+                      type="text"
+                      name="TM1_Name"
+                      placeholder="Member 1 Name"
+                      required
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-envelope"></i>
+                    </span>
+                    <input
+                      type="email"
+                      name="TM1_Email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-phone-volume"></i>
+                    </span>
+                    <input
+                      type="number"
+                      name="TM1_Number"
+                      placeholder="Mobile Number"
+                      required
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-user-plus"></i>
+                    </span>
+                    <input
+                      type="text"
+                      name="TM2_Name"
+                      placeholder="Member 2 Name"
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-envelope"></i>
+                    </span>
+                    <input type="email" name="TM2_Email" placeholder="Email" />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-phone-volume"></i>
+                    </span>
+                    <input
+                      type="number"
+                      name="TM2_Number"
+                      placeholder="Mobile Number"
                     />
                   </div>
                   <button class="button" type="submit">
@@ -127,7 +163,7 @@ function form4() {
           </div>
         </div>
         <div className="reEnter">
-          <h1>Duplicate Mobile Number Or Roll No. Found</h1>
+          <h1>Team Name Already Taken</h1>
           <div className="GoBack">
             <i class="fa-solid fa-arrow-left fa-shake"></i>
             <a href="form4">Re Fill The Form</a>

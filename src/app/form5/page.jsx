@@ -30,7 +30,7 @@ function form5() {
         <div class="form_wrapper">
           <div class="form_container">
             <div class="title_container">
-              <h2 className="text-black">Registration For Speaker's Session</h2>
+              <h2 className="text-black">Registration For WorkShop Session</h2>
             </div>
             <div class="row clearfix">
               <div class="">
@@ -88,6 +88,7 @@ function form5() {
                       type="email"
                       name="Email"
                       placeholder="Email"
+                      data-emailid
                       required
                     />
                   </div>

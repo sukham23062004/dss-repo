@@ -40,7 +40,7 @@ function events() {
           <div class="cover">
             <div class="heading flex flex-row items-center justify-center">
               <div className="bg-gradient-to-r from-cyan-400 via-purple-600 to-pruple-900 bg-clip-text text-transparent special-text">
-              E
+                E
               </div>
               vents
             </div>
@@ -75,7 +75,7 @@ function events() {
                             <i class="fa fa-map-marker"></i>
                           </td>
                           <td>
-                            <div>The Place Here</div>
+                            <div>CAT Hall</div>
                           </td>
                         </tr>
                       </table>
@@ -87,7 +87,7 @@ function events() {
                             <i class="fa fa-clock-o"></i>
                           </td>
                           <td>
-                            <div>Saturday, Sept 8, 2023 at 5:30 PM</div>
+                            <div>Sept 8 , 2023 , from 6:30PM to 7:30PM</div>
                             <div class="dim-color"></div>
                           </td>
                         </tr>
@@ -124,7 +124,7 @@ function events() {
                         <td>
                           <div class="month">September</div>
                           <div class="month-date-devider"></div>
-                          <div class="date">8</div>
+                          <div class="date">9</div>
                         </td>
                       </tr>
                     </table>
@@ -133,7 +133,7 @@ function events() {
                     <img src="Sample.png" />
                   </div>
                   <div class="col-lg-5 sec-3">
-                    <div class="title">Data Hunt</div>
+                    <div class="title">Power Plot Presentation</div>
                     <div class="venue">
                       <table>
                         <tr>
@@ -141,7 +141,7 @@ function events() {
                             <i class="fa fa-map-marker"></i>
                           </td>
                           <td>
-                            <div>The Place Here</div>
+                            <div>Room No. 233A, 237</div>
                           </td>
                         </tr>
                       </table>
@@ -153,136 +153,7 @@ function events() {
                             <i class="fa fa-clock-o"></i>
                           </td>
                           <td>
-                            <div>Saturday, Sept 8, 2023 at 5:30 PM</div>
-                            <div class="dim-color"></div>
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                    <div class="Description">
-                      {" "}
-                      This will be a treasure hunt event where teams decode
-                      hints, and progress from the iconic Mehak Canteen to
-                      diverse spots, unraveling new clues and reaching the
-                      ultimate destination. Multiple tracks ensure safe
-                      distancing. Hints and clues involve the basics of data
-                      science which every person comes across in their schools.{" "}
-                    </div>
-                    <div class="group-of-btn">
-                      <a href="form2" target="blank" class="btn book-ticket">
-                        Book Your Entry Pass
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="upcoming-event-list">
-              <div class="event-block even">
-                <div class="row">
-                  <div class="col-lg-2 sec-1">
-                    <table>
-                      <tr>
-                        <td>
-                          <div class="month">September</div>
-                          <div class="month-date-devider"></div>
-                          <div class="date">8</div>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="col-lg-5 sec-2">
-                    <img src="Sample.png" />
-                  </div>
-                  <div class="col-lg-5 sec-3">
-                    <div class="title">Data Charades</div>
-                    <div class="venue">
-                      <table>
-                        <tr>
-                          <td>
-                            <i class="fa fa-map-marker"></i>
-                          </td>
-                          <td>
-                            <div>The Place Here</div>
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                    <div class="time">
-                      <table>
-                        <tr>
-                          <td>
-                            <i class="fa fa-clock-o"></i>
-                          </td>
-                          <td>
-                            <div>Saturday, Sept 8, 2023 at 5:30 PM</div>
-                            <div class="dim-color"></div>
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                    <div class="Description">
-                      {" "}
-                      Get ready to have a blast while acting out data science
-                      terms and concepts in this fun- filled event. Participants
-                      will showcase their communication skills, quick thinking,
-                      and data science acumen as they creatively act out and
-                      guess various data-related terms. It's a unique
-                      opportunity to learn, laugh, and connect with like-minded
-                      data enthusiasts
-                    </div>
-                    <div class="group-of-btn">
-                      <a href="form3" target="blank" class="btn book-ticket">
-                        Book Your Entry Pass
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="upcoming-event-list">
-              <div class="event-block odd">
-                <div class="row">
-                  <div class="col-lg-2 sec-1">
-                    <table>
-                      <tr>
-                        <td>
-                          <div class="month">September</div>
-                          <div class="month-date-devider"></div>
-                          <div class="date">8</div>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="col-lg-5 sec-2">
-                    <img src="Sample.png" />
-                  </div>
-                  <div class="col-lg-5 sec-3">
-                    <div class="title">Power Plot</div>
-                    <div class="venue">
-                      <table>
-                        <tr>
-                          <td>
-                            <i class="fa fa-map-marker"></i>
-                          </td>
-                          <td>
-                            <div>The Place Here</div>
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                    <div class="time">
-                      <table>
-                        <tr>
-                          <td>
-                            <i class="fa fa-clock-o"></i>
-                          </td>
-                          <td>
-                            <div>Saturday, Sept 8, 2023 at 5:30 PM</div>
+                            <div>Sept 9, 2023, from 09:00AM to 12:00PM</div>
                             <div class="dim-color"></div>
                           </td>
                         </tr>
@@ -321,7 +192,7 @@ function events() {
                         <td>
                           <div class="month">September</div>
                           <div class="month-date-devider"></div>
-                          <div class="date">8</div>
+                          <div class="date">9</div>
                         </td>
                       </tr>
                     </table>
@@ -330,7 +201,7 @@ function events() {
                     <img src="Sample.png" />
                   </div>
                   <div class="col-lg-5 sec-3">
-                    <div class="title">Workshop</div>
+                    <div class="title">Data Charades</div>
                     <div class="venue">
                       <table>
                         <tr>
@@ -338,7 +209,7 @@ function events() {
                             <i class="fa fa-map-marker"></i>
                           </td>
                           <td>
-                            <div>The Place Here</div>
+                            <div>Room No. 231, 233A, 237</div>
                           </td>
                         </tr>
                       </table>
@@ -350,7 +221,72 @@ function events() {
                             <i class="fa fa-clock-o"></i>
                           </td>
                           <td>
-                            <div>Saturday, Sept 8, 2023 at 5:30 PM</div>
+                            <div>Sept 9, 2023, from 01:00PM to 02:30PM</div>
+                            <div class="dim-color"></div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="Description">
+                      {" "}
+                      Get ready to have a blast while acting out data science
+                      terms and concepts in this fun- filled event. Participants
+                      will showcase their communication skills, quick thinking,
+                      and data science acumen as they creatively act out and
+                      guess various data-related terms. It's a unique
+                      opportunity to learn, laugh, and connect with like-minded
+                      data enthusiasts
+                    </div>
+                    <div class="group-of-btn">
+                      <a href="form3" target="blank" class="btn book-ticket">
+                        Book Your Entry Pass
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="upcoming-event-list">
+              <div class="event-block even">
+                <div class="row">
+                  <div class="col-lg-2 sec-1">
+                    <table>
+                      <tr>
+                        <td>
+                          <div class="month">September</div>
+                          <div class="month-date-devider"></div>
+                          <div class="date">9</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="col-lg-5 sec-2">
+                    <img src="Sample.png" />
+                  </div>
+                  <div class="col-lg-5 sec-3">
+                    <div class="title">Workshop session</div>
+                    <div class="venue">
+                      <table>
+                        <tr>
+                          <td>
+                            <i class="fa fa-map-marker"></i>
+                          </td>
+                          <td>
+                            <div>CAT Hall</div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="time">
+                      <table>
+                        <tr>
+                          <td>
+                            <i class="fa fa-clock-o"></i>
+                          </td>
+                          <td>
+                            <div>Sept 9, 2023, from 03:00PM to 05:00PM</div>
                             <div class="dim-color"></div>
                           </td>
                         </tr>
@@ -386,7 +322,7 @@ function events() {
                         <td>
                           <div class="month">September</div>
                           <div class="month-date-devider"></div>
-                          <div class="date">8</div>
+                          <div class="date">9</div>
                         </td>
                       </tr>
                     </table>
@@ -395,7 +331,7 @@ function events() {
                     <img src="Sample.png" />
                   </div>
                   <div class="col-lg-5 sec-3">
-                    <div class="title">24hr Hackathon</div>
+                    <div class="title">Hackathon Kickstart</div>
                     <div class="venue">
                       <table>
                         <tr>
@@ -403,7 +339,7 @@ function events() {
                             <i class="fa fa-map-marker"></i>
                           </td>
                           <td>
-                            <div>The Place Here</div>
+                            <div>R & D Building</div>
                           </td>
                         </tr>
                       </table>
@@ -415,7 +351,7 @@ function events() {
                             <i class="fa fa-clock-o"></i>
                           </td>
                           <td>
-                            <div>Saturday, Sept 8, 2023 at 5:30 PM</div>
+                            <div>06:00PM [Sept 8] To 06:00PM [Sept 9]</div>
                             <div class="dim-color"></div>
                           </td>
                         </tr>
@@ -436,6 +372,70 @@ function events() {
                     </div>
                     <div class="group-of-btn">
                       <a href="form6" target="blank" class="btn book-ticket">
+                        Book Your Entry Pass
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="upcoming-event-list">
+              <div class="event-block odd">
+                <div class="row">
+                  <div class="col-lg-2 sec-1">
+                    <table>
+                      <tr>
+                        <td>
+                          <div class="month">September</div>
+                          <div class="month-date-devider"></div>
+                          <div class="date">10</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="col-lg-5 sec-2">
+                    <img src="Sample.png" />
+                  </div>
+                  <div class="col-lg-5 sec-3">
+                    <div class="title">Data Hunt</div>
+                    <div class="venue">
+                      <table>
+                        <tr>
+                          <td>
+                            <i class="fa fa-map-marker"></i>
+                          </td>
+                          <td>
+                            <div>Near Mehak Canteen</div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="time">
+                      <table>
+                        <tr>
+                          <td>
+                            <i class="fa fa-clock-o"></i>
+                          </td>
+                          <td>
+                            <div>Sept 10, 2023, from 09:00AM to 12:00PM</div>
+                            <div class="dim-color"></div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="Description">
+                      {" "}
+                      This will be a treasure hunt event where teams decode
+                      hints, and progress from the iconic Mehak Canteen to
+                      diverse spots, unraveling new clues and reaching the
+                      ultimate destination. Multiple tracks ensure safe
+                      distancing. Hints and clues involve the basics of data
+                      science which every person comes across in their schools.{" "}
+                    </div>
+                    <div class="group-of-btn">
+                      <a href="form2" target="blank" class="btn book-ticket">
                         Book Your Entry Pass
                       </a>
                     </div>

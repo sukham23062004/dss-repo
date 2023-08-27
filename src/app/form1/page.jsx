@@ -88,6 +88,7 @@ function form1() {
                       type="email"
                       name="Email"
                       placeholder="Email"
+                      data-emailid
                       required
                     />
                   </div>
@@ -127,7 +128,7 @@ function form1() {
           </div>
         </div>
         <div className="reEnter">
-          <h1>Duplicate Mobile Number Or Roll No. Found</h1>
+          <h1>Mobile No. / Email / Roll No. Already Registered</h1>
           <div className="GoBack">
             <i class="fa-solid fa-arrow-left fa-shake"></i>
             <a href="form1">Re Fill The Form</a>
