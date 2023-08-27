@@ -249,7 +249,7 @@ function events() {
           </div>
           <div class="container">
             <div class="upcoming-event-list">
-              <div class="event-block even">
+              <div class="event-block odd">
                 <div class="row">
                   <div class="col-lg-2 sec-1">
                     <table>
@@ -314,7 +314,7 @@ function events() {
           </div>
           <div class="container">
             <div class="upcoming-event-list">
-              <div class="event-block odd">
+              <div class="event-block even">
                 <div class="row">
                   <div class="col-lg-2 sec-1">
                     <table>
