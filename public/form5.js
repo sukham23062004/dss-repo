@@ -25,7 +25,7 @@ async function SubmitData() {
     let checked = 1;
     for (var i = 0; i < checkResult.length; i++) {
       if (
-        roll_code.value.toUpperCase() == checkResult[i]?.Roll_No.toUpperCase() || data_number.value == checkResult[i]?.Number || emailid.value.toUpperCase() == checkResult[i]?.Email.toUpperCase()
+        roll_code.value == checkResult[i]?.Roll_No || data_number.value == checkResult[i]?.Number || emailid.value == checkResult[i]?.Email
       ) {
         checked = 0;
         break;

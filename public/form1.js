@@ -25,14 +25,16 @@ async function SubmitData() {
     let checked = 1;
     for (var i = 0; i < checkResult.length; i++) {
       if (
-        roll_code.value.toUpperCase() == checkResult[i]?.Roll_No.toUpperCase() || data_number.value == checkResult[i]?.Number || emailid.value.toUpperCase() == checkResult[i]?.Email.toUpperCase()
+        roll_code.value == checkResult[i]?.Roll_No ||
+        data_number.value == checkResult[i]?.Number ||
+        emailid.value == checkResult[i]?.Email
       ) {
         checked = 0;
         break;
       }
     }
-    if(checked==1){
-      try{
+    if (checked == 1) {
+      try {
         loadingScreen2.classList.remove("active");
         loadingScreen1.classList.add("active");
         const sukham = await fetch(scriptURL, {
@@ -46,7 +48,7 @@ async function SubmitData() {
           SuccessPage.classList.add("Success");
           form.reset();
         }
-      }catch(error){
+      } catch (error) {
         loadingScreen1.classList.remove("active");
         loadingScreen2.classList.remove("active");
         console.log("Error : ", error);
@@ -55,7 +57,7 @@ async function SubmitData() {
         );
         form.reset();
       }
-    }else{
+    } else {
       loadingScreen2.classList.remove("active");
       reEnter.classList.add("Success");
     }
