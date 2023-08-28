@@ -336,7 +336,7 @@ function Footer() {
           <div class="container flex flex-col md:flex-row justify-around items-center mx-auto">
             <div class="logo h-1/4 w-1/4 mx-1 text-center">
               <a href="https://sdsbitmesra.netlify.app/" target="_blank">
-                <img src="SDS main logo.png"></img>
+                <img src="SDS Main Logo.png"></img>
               </a>
             </div>
             <div class="social w-1/5 mx-1 flex flex-start text-center">

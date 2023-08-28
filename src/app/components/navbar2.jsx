@@ -15,7 +15,7 @@ function Nav2() {
               <div className="flex-shrink-0">
                 <img
                   className="h-[4rem] w-[6rem] no-underline"
-                  src="SDS Main logo.png"
+                  src="SDS Main Logo.png"
                   alt="Workflow"
                 />
               </div>
