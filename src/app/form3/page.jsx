@@ -60,6 +60,17 @@ function form3() {
                   </div>
                   <div class="input_field">
                     <span>
+                      <i aria-hidden="true" class="fa fa-graduation-cap"></i>
+                    </span>
+                    <input
+                      type="text"
+                      name="TL_College"
+                      placeholder="College Name"
+                      required
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
                       <i aria-hidden="true" class="fa fa-envelope"></i>
                     </span>
                     <input
@@ -88,6 +99,17 @@ function form3() {
                       type="text"
                       name="TM1_Name"
                       placeholder="Member 1 Name"
+                      required
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-graduation-cap"></i>
+                    </span>
+                    <input
+                      type="text"
+                      name="TM1_College"
+                      placeholder="College Name"
                       required
                     />
                   </div>
@@ -125,13 +147,19 @@ function form3() {
                   </div>
                   <div class="input_field">
                     <span>
-                      <i aria-hidden="true" class="fa fa-envelope"></i>
+                      <i aria-hidden="true" class="fa fa-graduation-cap"></i>
                     </span>
                     <input
-                      type="email"
-                      name="TM2_Email"
-                      placeholder="Email"
+                      type="text"
+                      name="TM2_College"
+                      placeholder="College Name"
                     />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-envelope"></i>
+                    </span>
+                    <input type="email" name="TM2_Email" placeholder="Email" />
                   </div>
                   <div class="input_field">
                     <span>

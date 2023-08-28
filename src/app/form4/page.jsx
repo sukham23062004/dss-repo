@@ -30,7 +30,9 @@ function form4() {
         <div class="form_wrapper">
           <div class="form_container">
             <div class="title_container">
-              <h2 className="text-black">Registration For Power Plot Presentation</h2>
+              <h2 className="text-black">
+                Registration For Power Plot Presentation
+              </h2>
             </div>
             <div class="row clearfix">
               <div class="">
@@ -55,6 +57,17 @@ function form4() {
                       type="text"
                       name="TL_Name"
                       placeholder="Team Leader Name"
+                      required
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-graduation-cap"></i>
+                    </span>
+                    <input
+                      type="text"
+                      name="TL_College"
+                      placeholder="College Name"
                       required
                     />
                   </div>
@@ -93,6 +106,17 @@ function form4() {
                   </div>
                   <div class="input_field">
                     <span>
+                      <i aria-hidden="true" class="fa fa-graduation-cap"></i>
+                    </span>
+                    <input
+                      type="text"
+                      name="TM1_College"
+                      placeholder="College Name"
+                      required
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
                       <i aria-hidden="true" class="fa fa-envelope"></i>
                     </span>
                     <input
@@ -121,6 +145,16 @@ function form4() {
                       type="text"
                       name="TM2_Name"
                       placeholder="Member 2 Name"
+                    />
+                  </div>
+                  <div class="input_field">
+                    <span>
+                      <i aria-hidden="true" class="fa fa-graduation-cap"></i>
+                    </span>
+                    <input
+                      type="text"
+                      name="TM2_College"
+                      placeholder="College Name"
                     />
                   </div>
                   <div class="input_field">

@@ -1,5 +1,5 @@
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycbzJjFXoQvZrVXHdvIba_AQN8Jm8HYVZYioCaDXz0Diesz1QACgwYZy-bw0v3wGSuQQk/exec";
+  "https://script.google.com/macros/s/AKfycbwt_McxpSRaslN39W98hf6ZFYP5ee_0aHAM1mzV5DhRRlvo3G10HUQYVM82mKBXTZTm/exec";
 const form = document.forms["submit-to-google-sheet"];
 const loadingScreen1 = document.querySelector(".loading-container1");
 const loadingScreen2 = document.querySelector(".loading-container2");
@@ -17,7 +17,7 @@ async function SubmitData() {
   loadingScreen2.classList.add("active");
   try {
     const check = await fetch(
-      "https://script.google.com/macros/s/AKfycbzJjFXoQvZrVXHdvIba_AQN8Jm8HYVZYioCaDXz0Diesz1QACgwYZy-bw0v3wGSuQQk/exec?action=getData"
+      "https://script.google.com/macros/s/AKfycbwt_McxpSRaslN39W98hf6ZFYP5ee_0aHAM1mzV5DhRRlvo3G10HUQYVM82mKBXTZTm/exec?action=getData"
     );
     const checkResult = await check.json();
     let checked = 1;
