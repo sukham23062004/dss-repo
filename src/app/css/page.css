@@ -974,3 +974,11 @@ body {
         width: 13rem;
     }
 }
+@media (max-width: 330px) {
+  .event-heading {
+    font-size: 1.8rem;
+  }
+  .meet-speaker {
+    font-size: 1.5rem;
+  }
+}

@@ -2,7 +2,7 @@
 "use client";
 import React from 'react'
 import "./events.css"
-import Nav from '../components/navbar';
+import Nav2 from '../components/navbar2';
 import Script from 'next/script';
 
 function events() {
@@ -15,7 +15,7 @@ function events() {
           name="viewport"
           content="width=device-width,minimum-scale=1,initial-scale=1"
         />
-        <link rel="icon" type="image/x-icon" href="Favicon.png" />
+        <link rel="icon" type="image/x-icon" href="DSS logo.png" />
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -35,9 +35,9 @@ function events() {
         <link rel="stylesheet" href="Event.css" />
       </head>
       <body className="bg-gradient-to-r from-purple-950 via-blue-950  to-black ...">
-        <Nav />
+        <Nav2 />
         <div class="page-event">
-          <div class="cover">
+          <div class="cover" id="EVENTSHERE">
             <div class="heading flex flex-row items-center justify-center">
               <div className="bg-gradient-to-r from-cyan-400 via-purple-600 to-pruple-900 bg-clip-text text-transparent special-text">
                 E
@@ -446,7 +446,7 @@ function events() {
           </div>
         </div>
 
-        <footer class="md:hidden bg-gray-900 text-white">
+        <footer class="md:hidden bg-gray-900 text-white" id="FOOTER2">
           <div class="bg-gray-800 mx-auto px-11 rounded-3xl">
             <div class="container flex flex-col md:flex-row justify-between items-center mx-auto">
               <div class="logo w-full mx-1 my-2 text-lg justify-center text-center">
