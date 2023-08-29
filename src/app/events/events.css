@@ -292,3 +292,7 @@ li a{
     height: 80px;
   }
 }
+.border-class-here img{
+  border: 5px white solid;
+  max-height: 470px;
+}

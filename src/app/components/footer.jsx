@@ -84,7 +84,7 @@ function Footer() {
                       href="https://sdsbitmesra.netlify.app/#alumini"
                       class="inline-block py-2 pl-3 pr-5 hover-effect no-underline" target="_blank"
                     >
-                      Alumini
+                      Alumni
                     </a>
                   </li>
                 </ul>
@@ -353,7 +353,7 @@ function Footer() {
                   href="https://sdsbitmesra.netlify.app/alumni"
                   class="inline-block py-2 pl-3 pr-5 hover-effect no-underline" target="_blank"
                 >
-                  Alumini
+                  Alumni
                 </a>
               </li>
             </ul>

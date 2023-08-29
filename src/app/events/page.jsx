@@ -63,8 +63,8 @@ function events() {
                       </tr>
                     </table>
                   </div>
-                  <div class="col-lg-5 sec-2">
-                    <img src="Sample.png" />
+                  <div class="col-lg-5 sec-2 border-class-here">
+                    <img src="RevealingSoon.png" />
                   </div>
                   <div class="col-lg-5 sec-3">
                     <div class="title">Speaker's session</div>
@@ -129,8 +129,8 @@ function events() {
                       </tr>
                     </table>
                   </div>
-                  <div class="col-lg-5 sec-2">
-                    <img src="Sample.png" />
+                  <div class="col-lg-5 sec-2 border-class-here">
+                    <img src="PowerPlot.png" />
                   </div>
                   <div class="col-lg-5 sec-3">
                     <div class="title">Power Plot Presentation</div>
@@ -197,8 +197,8 @@ function events() {
                       </tr>
                     </table>
                   </div>
-                  <div class="col-lg-5 sec-2">
-                    <img src="Sample.png" />
+                  <div class="col-lg-5 sec-2 border-class-here">
+                    <img src="DataCharades.jpg" />
                   </div>
                   <div class="col-lg-5 sec-3">
                     <div class="title">Data Charades</div>
@@ -262,8 +262,8 @@ function events() {
                       </tr>
                     </table>
                   </div>
-                  <div class="col-lg-5 sec-2">
-                    <img src="Sample.png" />
+                  <div class="col-lg-5 sec-2 border-class-here">
+                    <img src="RevealingSoon.png" />
                   </div>
                   <div class="col-lg-5 sec-3">
                     <div class="title">Workshop session</div>
@@ -327,8 +327,8 @@ function events() {
                       </tr>
                     </table>
                   </div>
-                  <div class="col-lg-5 sec-2">
-                    <img src="Sample.png" />
+                  <div class="col-lg-5 sec-2 border-class-here">
+                    <img src="Hackathon.png" />
                   </div>
                   <div class="col-lg-5 sec-3">
                     <div class="title">Hackathon Kickstart</div>
@@ -395,8 +395,8 @@ function events() {
                       </tr>
                     </table>
                   </div>
-                  <div class="col-lg-5 sec-2">
-                    <img src="Sample.png" />
+                  <div class="col-lg-5 sec-2 border-class-here">
+                    <img src="DataHunt.png" />
                   </div>
                   <div class="col-lg-5 sec-3">
                     <div class="title">Data Hunt</div>
@@ -526,7 +526,7 @@ function events() {
                         href="https://sdsbitmesra.netlify.app/#alumini"
                         class="inline-block py-2 pl-3 pr-5 hover-effect no-underline text-left" target="_blank"
                       >
-                        Alumini
+                        Alumni
                       </a>
                     </li>
                   </ul>
@@ -795,7 +795,7 @@ function events() {
                     href="https://sdsbitmesra.netlify.app/alumni"
                     class="inline-block py-2 pl-3 pr-5 hover-effect no-underline" target="_blank"
                   >
-                    Alumini
+                    Alumni
                   </a>
                 </li>
               </ul>
