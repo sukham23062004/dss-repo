@@ -8,12 +8,12 @@ function form4() {
     <>
       <head>
         <meta charset="UTF-8" />
-        <title>Event Page SDS</title>
+        <title>Power Plot Representation</title>
         <meta
           name="viewport"
           content="width=device-width,minimum-scale=1,initial-scale=1"
         />
-        <link rel="icon" type="image/x-icon" href="Favicon.png" />
+        <link rel="icon" type="image/x-icon" href="DSS Logo.png" />
         <script
           src="https://kit.fontawesome.com/36f3a0ef1b.js"
           crossorigin="anonymous"

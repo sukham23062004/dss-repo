@@ -14,63 +14,63 @@ function Nav1() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <img
-                  className="h-[4rem] w-[6rem] no-underline"
+                  className="h-[4rem] w-[7rem] no-underline"
                   src="SDS Main Logo.png"
                   alt="Workflow"
                 />
               </div>
-              <div className="hidden md:block ">
-                <div className="ml-10 flex items-baseline space-x-5 h-fit">
+              <div className="hidden lg:block ">
+                <div className="ml-10 flex items-baseline justify-between space-x-5 h-fit">
                   <a
                     href="#about"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium no-underline"
+                    className=" hover:bg-gray-500 text-white px-3 text-center py-3 rounded-md text-sm font-semibold no-underline"
                   >
                     Dashboard
                   </a>
 
                   <a
                     href="#SPONSORS"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 no-underline py-2 rounded-md text-sm font-medium"
+                    className="hover:bg-gray-500 text-white px-3 text-center py-3 rounded-md text-sm font-semibold no-underline"
                   >
                     Sponsors
                   </a>
 
                   <a
                     href="#SPEAKERS"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 no-underline rounded-md text-sm font-medium"
+                    className="hover:bg-gray-500 text-white px-3 text-center py-3 rounded-md text-sm font-semibold no-underline"
                   >
                     Speakers
                   </a>
 
                   <a
                     href="events"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 no-underline py-2 rounded-md text-sm font-medium"
+                    className="hover:bg-gray-500 text-white px-3 text-center py-3 rounded-md text-sm font-semibold no-underline"
                   >
                     Events
                   </a>
 
                   <a
                     href="#FOOTER"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white no-underline px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:bg-gray-500 text-white px-3 text-center py-3 rounded-md text-sm font-semibold no-underline"
                   >
                     Contact
                   </a>
                   <a
-                    className="flex flex-row items-center bg-slate-500 py-2 px-4 rounded-md justify-center no-underline hover:bg-white"
-                    href="https://drive.google.com/uc?export=download&id=1c9L5vs8rr09o9PNQARfcN6CnCpAJp9WD"
+                    className="flex flex-row items-center bg-slate-500 py-2 px-4 rounded-md justify-center no-underline"
+                    href="https://drive.google.com/uc?export=download&id=16uR14DTupgmtKasaFSPFVe0Zk_xcR5Bn"
                   >
                     <img
                       src="/file.png"
                       className="w-[1rem] mr-2 flex justify-center items-center"
                     />
-                    <div className="text-white flex justify-center items-center hover:text-gray-900">
-                      Bronchure
+                    <div className="text-white flex justify-center items-center">
+                      Brochure
                     </div>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="-mr-2 flex md:hidden">
+            <div className="-mr-2 flex lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -116,7 +116,6 @@ function Nav1() {
             </div>
           </div>
         </div>
-
         <Transition
           show={isOpen}
           enter="transition ease-out duration-100 transform"
@@ -127,52 +126,48 @@ function Nav1() {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden" id="mobile-menu">
+            <div className="lg:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="#about"
-                  className="hover:bg-gray-700 no-underline text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-gray-500 no-underline text-white block px-3 py-2 rounded-md text-base font-semibold"
                 >
                   Dashboard
                 </a>
-
                 <a
                   href="#SPONSORS"
-                  className="text-gray-300 no-underline hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-gray-500 no-underline text-white block px-3 py-2 rounded-md text-base font-semibold"
                 >
                   Sponsors
                 </a>
-
                 <a
                   href="#SPEAKERS"
-                  className="text-gray-300 no-underline hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-gray-500 no-underline text-white block px-3 py-2 rounded-md text-base font-semibold"
                 >
                   Speakers
                 </a>
-
                 <a
                   href="events"
-                  className="text-gray-300 no-underline hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-gray-500 no-underline text-white block px-3 py-2 rounded-md text-base font-semibold"
                 >
                   Events
                 </a>
-
                 <a
                   href="#FOOTER"
-                  className="text-gray-300 no-underline hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-gray-500 no-underline text-white block px-3 py-2 rounded-md text-base font-semibold"
                 >
                   Contact
                 </a>
                 <a
-                  className="flex flex-row items-center bg-slate-500 py-2 px-2 rounded-md justify-center w-[8rem] hover:bg-slate-300 hover:text-slate-800 no-underline"
-                  href="https://drive.google.com/uc?export=download&id=1c9L5vs8rr09o9PNQARfcN6CnCpAJp9WD"
+                  className="flex flex-row items-center bg-slate-500 py-2 px-2 rounded-md justify-center w-[9rem] no-underline"
+                  href="https://drive.google.com/uc?export=download&id=16uR14DTupgmtKasaFSPFVe0Zk_xcR5Bn"
                 >
                   <img
                     src="/file.png"
-                    className="w-[1rem] mr-2 flex justify-center items-center "
+                    className="w-[1rem] mr-3 flex justify-center items-center "
                   />
-                  <div className="font-medium text-white flex justify-center items-center ">
-                    Bronchure
+                  <div className="font-semibold text-white flex justify-center items-center ">
+                    Brochure
                   </div>
                 </a>
               </div>
@@ -183,5 +178,4 @@ function Nav1() {
     </div>
   );
 }
-
 export default Nav1;

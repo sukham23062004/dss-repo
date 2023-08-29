@@ -14,12 +14,12 @@ export default function Home() {
           name="viewport"
           content="width=device-width,minimum-scale=1,initial-scale=1"
         />
-        <link rel="icon" type="image/x-icon" href="DSS logo.png" />
+        <link rel="icon" type="image/x-icon" href="DSS Logo.png" />
       </head>
       <body className="bg-gradient-to-r from-black via-blue-950  to-purple-950  ...">
         <Script src="DSS.js" />
         <Nav1 />
-        <main>
+        <main id="RedirectHere">
           <div
             id="about"
             className="bg-gradient-to-r from-black via-blue-950  to-purple-950  ..."
@@ -66,7 +66,7 @@ export default function Home() {
 
             <header id="header" className="d-flex align-items-center ">
               <div className="container d-flex flex-column align-items-center mx-auto">
-                <div className="countdown mx-auto" data-count="2023/8/27">
+                <div className="countdown mx-auto" data-count="2023/9/8">
                   <div className="text-gray-300">
                     <h3>%d</h3>
                     <h4>Days</h4>
@@ -92,7 +92,7 @@ export default function Home() {
               <div className="meet-speaker">Meet our Sponsors </div>
               <div className="underline"></div>
             </div>
-            <div id="sponsors">
+            {/* <div id="sponsors">
               <div className="sponsor">
                 <img src="gdsc.png" alt="Pic" />
               </div>
@@ -129,7 +129,8 @@ export default function Home() {
               <div className="sponsor truscholar">
                 <img src="truscholar.png" alt="Pic" />
               </div>
-            </div>
+            </div> */}
+            <div className="revealing-soon1">Revealing Soon .....</div>
           </div>
         </main>
         <div className="bg-gradient-to-r from-black via-blue-950  to-purple-950  ...">
@@ -139,7 +140,7 @@ export default function Home() {
           </div>
 
           {/* <div className="alumini1"> */}
-          <div className="space-y-10 mb-20 mt-10 flex flex-col items-center">
+          {/* <div className="space-y-10 mb-20 mt-10 flex flex-col items-center">
             <div className="w-[80%] justify-between flex">
               <div className="bg-slate-800  h-fit p-5 rounded-[50px] flex flex-col md:flex-row w-fit drop-shadow-2xl gap-6">
                 <div className="image-about-parent p-5 md:w-auto w-[100%] lg:w-[50%]">
@@ -247,7 +248,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+          <div className="revealing-soon2">Revealing Soon .....</div>
         </div>
         {/* <!-- Footer --> */}
         <Footer />

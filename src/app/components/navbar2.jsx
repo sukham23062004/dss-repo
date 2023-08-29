@@ -14,7 +14,7 @@ function Nav2() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <img
-                  className="h-[4rem] w-[6rem] no-underline"
+                  className="h-[4rem] w-[7rem] no-underline"
                   src="SDS Main Logo.png"
                   alt="Workflow"
                 />
@@ -23,28 +23,32 @@ function Nav2() {
                 <div className="ml-10 flex items-baseline space-x-5 h-fit">
                   <a
                     href="#EVENTSHERE"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium no-underline"
+                    className=" hover:bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-semibold no-underline"
                   >
                     Dashboard
                   </a>
-
                   <a
-                    href="#FOOTER2"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white no-underline px-3 py-2 rounded-md text-sm font-medium"
+                    href="#footer-here"
+                    className="hover:bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-semibold no-underline"
                   >
                     Contact
                   </a>
-
                   <a
-                    className="flex flex-row items-center bg-slate-500 py-2 px-4 rounded-md justify-center no-underline hover:bg-white"
-                    href="https://drive.google.com/uc?export=download&id=1c9L5vs8rr09o9PNQARfcN6CnCpAJp9WD"
+                    href="https://data-science-summit-sds.vercel.app/"
+                    className="hover:bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-semibold no-underline"
+                  >
+                    Go Back
+                  </a>
+                  <a
+                    className="flex flex-row items-center bg-slate-500 py-2 px-4 rounded-md justify-center no-underline"
+                    href="https://drive.google.com/uc?export=download&id=16uR14DTupgmtKasaFSPFVe0Zk_xcR5Bn"
                   >
                     <img
                       src="/file.png"
                       className="w-[1rem] mr-2 flex justify-center items-center"
                     />
-                    <div className="text-white flex justify-center items-center hover:text-gray-800">
-                      Bronchure
+                    <div className="text-white flex justify-center items-center">
+                      Brochure
                     </div>
                   </a>
                 </div>
@@ -96,7 +100,6 @@ function Nav2() {
             </div>
           </div>
         </div>
-
         <Transition
           show={isOpen}
           enter="transition ease-out duration-100 transform"
@@ -111,27 +114,32 @@ function Nav2() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="#EVENTSHERE"
-                  className="text-gray-300 no-underline hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white no-underline hover:bg-gray-500 hover:text-white block px-3 py-2 rounded-md text-base font-semibold"
                 >
                   Dashboard
                 </a>
-
                 <a
-                  href="#FOOTER2"
-                  className="text-gray-300 no-underline hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium mb-2"
+                  href="#footer-here"
+                  className="text-white no-underline hover:bg-gray-500 hover:text-white block px-3 py-2 rounded-md text-base font-semibold mb-2"
                 >
                   Contact
                 </a>
                 <a
-                  className="flex flex-row items-center bg-slate-500 py-2 px-2 rounded-md justify-center w-[8rem] hover:bg-slate-300 hover:text-slate-800 no-underline"
-                  href="https://drive.google.com/uc?export=download&id=1c9L5vs8rr09o9PNQARfcN6CnCpAJp9WD"
+                  href="https://data-science-summit-sds.vercel.app/"
+                  className="text-white no-underline hover:bg-gray-500 hover:text-white block px-3 py-2 rounded-md text-base font-semibold"
+                >
+                  Go Back
+                </a>
+                <a
+                  className="flex flex-row items-center bg-slate-500 py-2 px-2 rounded-md justify-center w-[8rem] no-underline"
+                  href="https://drive.google.com/uc?export=download&id=16uR14DTupgmtKasaFSPFVe0Zk_xcR5Bn"
                 >
                   <img
                     src="/file.png"
-                    className="w-[1rem] mr-2 flex justify-center items-center "
+                    className="w-[1rem] mr-3 flex justify-center items-center "
                   />
-                  <div className="font-medium text-white flex justify-center items-center ">
-                    Bronchure
+                  <div className="font-semibold text-white flex justify-center items-center">
+                    Brochure
                   </div>
                 </a>
               </div>
@@ -142,5 +150,4 @@ function Nav2() {
     </div>
   );
 }
-
 export default Nav2;

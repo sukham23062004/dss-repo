@@ -272,3 +272,23 @@ li a{
   text-decoration: none;
   margin: 0 auto;
 }
+.custom-border2{
+    height: 100px;
+    width: 5px;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    background-color: white;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-left: 0;
+}
+@media (min-width:1285px){
+  .custom-border2{
+    height: 150px;
+  }
+}
+@media (max-width:850px){
+  .custom-border2{
+    height: 80px;
+  }
+}

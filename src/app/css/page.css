@@ -26,7 +26,7 @@
 }
 /* Open Multiple Icon Formatting - Open */
 .tab input[type="checkbox"]:checked + .label .icon {
-  transform: rotate(360deg);
+  transform: rotate(90deg);
 }
 
 /* List Transition */
@@ -46,9 +46,6 @@ ul a {
   margin-right: 3vh;
 }
 /* General CSS*/
-.another-wrapper .text{
-  height: 8rem;
-}
 .wrapper .text{
   height: 14rem;
 }
@@ -701,6 +698,27 @@ a {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
+.revealing-soon1{
+    text-align: center;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 2rem;
+    letter-spacing: -1px;
+    font-family: "Krona One";
+    color: white;
+}
+.revealing-soon2{
+    text-align: center;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    letter-spacing: -1px;
+    font-family: "Krona One";
+    color: white;
+}
 .underline{
     height: 4px;
     width: 45rem;
@@ -916,6 +934,13 @@ body {
     .text{
         height: 7rem;
     }
+    .revealing-soon1{
+      margin-top: 0;
+      font-size: 1.25rem;
+    }
+    .revealing-soon2{
+      font-size: 1.25rem;
+    }
     .alumini1{
         justify-content: center;
         margin-top: 0rem;
@@ -945,6 +970,13 @@ body {
 @media (max-width:415px){
     .text{
         height: 5rem;
+    }
+    .revealing-soon1{
+      margin-top: 0;
+      font-size: 1rem;
+    }
+    .revealing-soon2{
+      font-size: 1rem;
     }
     .meet-speaker{
         font-size: 1.75rem;
@@ -980,5 +1012,43 @@ body {
   }
   .meet-speaker {
     font-size: 1.5rem;
+  }
+}
+@media (max-width: 290px) {
+    .text{
+      height:4rem;
+    }
+    .revealing-soon1{
+      margin-top: 0;
+      font-size: 0.75rem;
+    }
+    .revealing-soon2{
+      font-size: 0.75rem;
+    }
+    .meet-speaker{
+        font-size: 1.25rem;
+    }
+    .underline{
+        width: 12rem;
+    }
+}
+.custom-border{
+    height: 100px;
+    width: 5px;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    background-color: white;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-left: 0;
+}
+@media (min-width:1285px){
+  .custom-border{
+    height: 150px;
+  }
+}
+@media (max-width:850px){
+  .custom-border{
+    height: 80px;
   }
 }
