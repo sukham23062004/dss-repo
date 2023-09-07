@@ -393,6 +393,13 @@ a {
 #kareem img{
   transform: scale(0.75);
 }
+#jawed img{
+  max-height: 200px;
+  max-width: 400px;
+}
+#jawed img{
+  transform: scale(0.75);
+}
 .sponsor img{
   height: 1000px;
   width: 1000px;
@@ -412,6 +419,13 @@ a {
 #kareem img{
   transform: scale(0.8);
 }
+#jawed img{
+  max-height: 150px;
+  max-width: 300px;
+}
+#jawed img{
+  transform: scale(0.8);
+}
 }
 @media (max-width:388px){
   #unstop img{
@@ -428,6 +442,14 @@ a {
 #kareem img{
   transform: scale(0.9);
 }
+#jawed img{
+  max-height: 120px;
+  max-width: 200px;
+}
+#jawed img{
+  transform: scale(0.9);
+}
+
 }
 /* BreakPoints */
 @media (max-width:780px){
@@ -492,7 +514,7 @@ a {
 .revealing-soon2{
     text-align: center;
     padding: 2px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 2rem;
@@ -647,10 +669,10 @@ a {
     }
     .revealing-soon1{
       margin-top: 0;
-      font-size: 1.25rem;
+      font-size: 1.6rem;
     }
     .revealing-soon2{
-      font-size: 1.25rem;
+      font-size: 1.6rem;
     }
     .alumini1{
         justify-content: center;
@@ -684,10 +706,10 @@ a {
     }
     .revealing-soon1{
       margin-top: 0;
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
     .revealing-soon2{
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
     .meet-speaker{
         font-size: 1.75rem;
@@ -731,10 +753,10 @@ a {
     }
     .revealing-soon1{
       margin-top: 0;
-      font-size: 0.75rem;
+      font-size: 1rem;
     }
     .revealing-soon2{
-      font-size: 0.75rem;
+      font-size: 1rem;
     }
     .meet-speaker{
         font-size: 1.25rem;

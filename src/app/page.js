@@ -89,7 +89,7 @@ export default function Home() {
               </div>
               <div className="sponsor">
                 <img src="GeeksforGeeks.png" alt="Pic" />
-                <div className="revealing-soon2 mt-8">Coding Partner</div>
+                <div className="revealing-soon2">Coding Partner</div>
               </div>
               <div className="sponsor" id="unstop">
                 <img src="Unstop.jpg" alt="Pic" />
@@ -99,7 +99,7 @@ export default function Home() {
                 <img src="Kareem.png" alt="Pic" />
                 <div className="revealing-soon2">Food Partner</div>
               </div>
-              <div className="sponsor">
+              <div className="sponsor" id="jawed">
                 <img src="JawedHabib.png" alt="Pic" />
                 <div className="revealing-soon2">Styling Partner</div>
               </div>
