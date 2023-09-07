@@ -110,6 +110,7 @@ a {
   background: radial-gradient(circle at 18.7% 37.8%, rgb(14, 2, 125) 0%, rgb(38, 190, 255) 90%);
 }
 #header .countdown div h3 {
+  font-family: "Krona One";
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 15px;
@@ -198,14 +199,17 @@ a {
 }
 .email-register a{
   letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Krona One";
   background-image: linear-gradient(45deg, #f700ff, #1500ff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
-@media (max-width:400px){
+@media (max-width:270px){
   .email-register{
+    font-size: 0.8rem;
+  }
+  .email-register a{
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -583,7 +587,7 @@ a {
     letter-spacing: 1.5px;
     font-size: 1.05rem;
     color: white;
-    font-family: "Zen Dots";
+    font-family: "Krona One";
 }
 .photo{
     height: 220px;

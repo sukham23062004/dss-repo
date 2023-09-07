@@ -101,7 +101,7 @@ export default function Home() {
               </div>
               <div className="sponsor">
                 <img src="JawedHabib.png" alt="Pic" />
-                <div className="revealing-soon2">Hair & Beauty Partner</div>
+                <div className="revealing-soon2">Styling Partner</div>
               </div>
             </div>
           </div>
