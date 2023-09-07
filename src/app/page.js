@@ -87,13 +87,21 @@ export default function Home() {
                 <img src="DevDungeon.png" alt="Pic" />
                 <div className="revealing-soon1">Community Partner</div>
               </div>
+              <div className="sponsor">
+                <img src="GeeksforGeeks.png" alt="Pic" />
+                <div className="revealing-soon2 mt-8">Coding Partner</div>
+              </div>
               <div className="sponsor" id="unstop">
                 <img src="Unstop.jpg" alt="Pic" />
-                <div className="revealing-soon1">Hosting Partner</div>
+                <div className="revealing-soon2">Hosting Partner</div>
               </div>
               <div className="sponsor" id="kareem">
                 <img src="Kareem.png" alt="Pic" />
-                <div className="revealing-soon1">Food Partner</div>
+                <div className="revealing-soon2">Food Partner</div>
+              </div>
+              <div className="sponsor">
+                <img src="JawedHabib.png" alt="Pic" />
+                <div className="revealing-soon2">Hair & Beauty Partner</div>
               </div>
             </div>
           </div>
