@@ -54,24 +54,25 @@ export default function Home() {
               <div className="container d-flex flex-column align-items-center mx-auto">
                 <div className="countdown mx-auto" data-count="2023/9/9">
                   <div className="text-gray-300">
-                    <h3>%d</h3>
+                    <h3>0</h3>
                     <h4>Days</h4>
                   </div>
                   <div className="text-gray-300">
-                    <h3>%h</h3>
+                    <h3>0</h3>
                     <h4>Hours</h4>
                   </div>
                   <div className="text-gray-300">
-                    <h3>%m</h3>
+                    <h3>0</h3>
                     <h4>Minutes</h4>
                   </div>
                   <div className="text-gray-300">
-                    <h3>%s</h3>
+                    <h3>0</h3>
                     <h4>Seconds</h4>
                   </div>
                 </div>
               </div>
             </header>
+            <div className="revealing-soon1 mb-4">Data Science Summit 2023 Has Started ...... </div>
           </div>
           <div className="another-wrapper bg-gradient-to-r from-black via-blue-950  to-purple-950  ...">
             <div className="text" id="SPONSORS">

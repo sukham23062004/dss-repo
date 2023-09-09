@@ -406,7 +406,7 @@ function events() {
                             <i class="fa fa-map-marker"></i>
                           </td>
                           <td>
-                            <div>CAT Hall</div>
+                            <div>Seminar Hall RnD Building</div>
                           </td>
                         </tr>
                       </table>
